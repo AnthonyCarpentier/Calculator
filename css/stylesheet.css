@@ -1,0 +1,28 @@
+button {
+    font-size: xx-large;
+}
+#calculatorContainer{
+    height: 400px;
+    width: 400px;
+}
+#resultsContainer{
+    height: 50px;
+    width: 400px;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+}
+.wrapperCalc{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+}
+.wrapperNumbers{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
+}
+.wrapperOperators{
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(4, 100px);
+}
